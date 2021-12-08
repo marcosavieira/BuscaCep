@@ -1,0 +1,23 @@
+.container-principal {
+  display: flex;
+  justify-content: space-around;
+  padding: 10em;
+  margin: auto;
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
+}
+
+#btnPesquisar {
+  padding: 1em;
+  margin: 2px;
+}
+
+#btnLimpar {
+  padding: 1em;
+  margin: 2px;
+}

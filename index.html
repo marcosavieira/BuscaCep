@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/cep.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+
+  <div class="container-principal">
+  <div class="container col-md-5">
+    <form class="container-form">
+      <div class="form-group font-weight-bold">
+        <label>CEP</label>
+        <input type="text" id="cep" pattern= "\d{5}-?\d{3}" class="form-control" required placeholder="Insira o seu CEP" style="margin: 1em;">
+      </div>
+      <div class="form-group font-weight-bold">
+        <label>Rua</label>
+        <input type="text" class="form-control" id="rua" placeholder="..." style="margin: 1em;">
+      </div>
+      <div class="form-group font-weight-bold">
+        <label>Complemento</label>
+        <input type="text" class="form-control" id="complemento" placeholder="..." style="margin: 1em;">
+      </div>
+      <div class="form-group font-weight-bold">
+        <label>Bairro</label>
+        <input type="text" class="form-control" id="bairro" placeholder="..." style="margin: 1em;">
+      </div>
+      <div class="form-group font-weight-bold">
+        <label>Cidade</label>
+        <input type="text" class="form-control" id="cidade" placeholder="..." style="margin: 1em;">
+      </div>
+      <div class="form-group font-weight-bold">
+        <label>Estado</label>
+        <input type="text" class="form-control" id="estado" placeholder="..." style="margin: 1em;">
+      </div>
+      <button type="submit" id="btnPesquisar" class="btn btn-primary">Pesquisa</button>
+      <button type= "reset" id="btnLimpar" class="btn btn-danger">Limpar</button>
+    </form>
+  </div>
+    <script src="./assets/js/busca-cep.js"></script>
+</html>
